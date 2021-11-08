@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!-- saved from url=(0093) -->
 <html lang="en" dir="ltr" class="client-js js flexbox flexboxlegacy canvas canvastext postmessage websqldatabase indexeddb hashchange history draganddrop websockets">
+  <!--added mdn file for charts-->
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -27,6 +28,7 @@
   <link rel="stylesheet" href="./assets/font-awesome.min.css">
   <link rel="stylesheet" href="./assets/statexpflat.css">
   <link rel="stylesheet" href="./assets/statexpflat-grid.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <style>
     a:lang(ar),
@@ -86,7 +88,7 @@
 </head>
 
 <body class="mediawiki ltr sitedir-ltr ns-110 ns-subject page-Archive_Crime_statistics_fr skin-statexpflat action-view" cz-shortcut-listen="true">
-
+  <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
 
   <div class="container">
 
@@ -799,6 +801,7 @@
                 <span class="mw-headline" id="Crimes_et_d.C3.A9lits_enregistr.C3.A9s_par_les_services_de_police">Crimes recorded by the police</span>
               </h3>
 
+             
 
               <table cellspacing="0" cellpadding="0" id="table1">
                 <caption> Table 1: Offences recorded by the police, 2002-12</caption>
@@ -2062,6 +2065,9 @@
 
     <!--END PAGE-->
   </div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="main.js"></script>
+    
 </body>
 
 </html>
